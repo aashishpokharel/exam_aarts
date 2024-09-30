@@ -14,6 +14,7 @@ This project implements a Document Question Answering (DQA) system that allows u
 - [Example](#example)
 - [Contributing](#contributing)
 - [License](#license)
+- [Disadvantages](#Disadvantages)
 
 ## Features
 
@@ -53,6 +54,8 @@ To set up the project, follow these steps:
     streamlit run streamlit.py
     ```
 
+# Disadvantages
+The problem for the Invoice (Transaction) requires to extract the Line Items and not the summary of the documents, but as the model choosen for current scenario didn't support that, hence the mode currently extracts only summary contents. Apologies!
 # Missing Rent Payments Script
 
 This script identifies missing rent payments for properties based on transaction data stored in a CSV file. It reads the rent transaction records, determines the expected payment months, and outputs any missing payments in JSON format.
