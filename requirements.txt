@@ -1,0 +1,5 @@
+# sudo apt install tesseract-ocr
+transformers==4.32.1
+torch
+Pillow
+pytesseract
