@@ -37,14 +37,16 @@ To set up the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/document-question-answering.git
-   cd document-question-answering
+    git clone https://github.com/yourusername/document-question-answering.git
+    cd document-question-answering 
+    ```
 
 2. Install required packages
 
-sudo apt-get install poppler-utils 
-sudo apt-get install tesseract-ocr
-pip install -r requirements.txt
+``` sudo apt-get install poppler-utils 
+    sudo apt-get install tesseract-ocr
+    pip install -r requirements.txt
+```
 
 3. Run the streamlit 
 streamlit run streamlit.py
