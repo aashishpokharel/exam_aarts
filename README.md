@@ -40,6 +40,14 @@ To set up the project, follow these steps:
    git clone https://github.com/yourusername/document-question-answering.git
    cd document-question-answering
 
+2. Install required packages
+
+sudo apt-get install poppler-utils 
+sudo apt-get install tesseract-ocr
+pip install -r requirements.txt
+
+3. Run the streamlit 
+streamlit run streamlit.py
 
 # Missing Rent Payments Script
 
