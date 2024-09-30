@@ -42,17 +42,16 @@ To set up the project, follow these steps:
     ```
 
 2. Install required packages
-
-``` 
+    ``` 
     sudo apt-get install poppler-utils 
     sudo apt-get install tesseract-ocr
     pip install -r requirements.txt
-```
+    ```
 
 3. Run the streamlit 
-``` 
-streamlit run streamlit.py
-```
+    ``` 
+    streamlit run streamlit.py
+    ```
 
 # Missing Rent Payments Script
 
@@ -132,7 +131,5 @@ If there is an issue reading the CSV file, the script will return a JSON error m
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Author
 
-[Your Name]  
-[Your Contact Information]
+## PS : CHATGPT and other LLMs have been used to generate the required outcome
